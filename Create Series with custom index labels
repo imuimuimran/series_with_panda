@@ -1,0 +1,4 @@
+# Creating a Series with custom index labels
+index = ['a', 'b', 'c', 'd', 'e']
+series_with_index = pd.Series(data, index=index)
+print(series_with_index)
